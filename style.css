@@ -1,8 +1,7 @@
 body {
     display: flex;
-    justify-content: row;
-    align-items: center;
-    border: solid 1px #000;
+    flex-direction: column;
+    border: solid 3px rgb(72, 162, 104);
     margin: 0;
 }
 
@@ -11,9 +10,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex: 0 1 0;
     background-color: #1f2937;
-    border: solid 1px #000;
+    border: solid 1px pink;
     padding: 0 240px;
     margin: 0;
 }
@@ -21,7 +20,7 @@ body {
 .logo img {
     width: 60px;
     height: auto;
-    border: solid 1px #000;
+    border: solid 1px pink;
 }
 
 ul {
@@ -29,12 +28,12 @@ ul {
     justify-content: right;
     align-items: center;
     list-style-type: none;
-    border: solid 1px #000;
+    border: solid 1px pink;
 }
 
 li {
     margin: 0 24px;
-    border: solid 1px #000;
+    border: solid 1px whitesmoke;
 }
 
 a {
@@ -50,7 +49,7 @@ a {
     align-items: center;
     flex: 1;
     background-color: #1f2937;
-    border: solid 1px #000;
+    border: solid 2px blueviolet;
     padding: 0 240px;
     margin: 0;
 }
@@ -60,9 +59,15 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border: solid 2px greenyellow;
+}
+
+.big-font {
+
 }
 
 .logo2 {
     width: 360px;
     height: auto;
+    border: solid 2px goldenrod;
 }
