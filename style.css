@@ -51,7 +51,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
     background-color: #1f2937;
     padding: 40px 200px;
     margin: 0;
@@ -109,23 +108,21 @@ button {
 .content-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border: solid 2px pink;
+    padding: 40px 200px;
 }
 
 .info-p {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    border: solid 2px green;
 }
 
 .information-images {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+    align-items: center; 
 }
 
 .info-img1,
@@ -138,7 +135,6 @@ button {
     align-items: center;
     width: 160px;    
     margin: 30px;
-    border: solid 2px greenyellow;
 }
 
 .info-img1 img,
@@ -158,4 +154,20 @@ button {
 .info-img3 p,
 .info-img4 p {
     text-align: center;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 40px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0 60px;
 }
